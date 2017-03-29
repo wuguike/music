@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+/*第一屏*/
+.bgcolor{
+    width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -2;
+}
+.t_dd{
+     width:100%;
+    height: 7.248rem;
+    position: relative;
+    overflow: hidden;
+}
+.t_img{
+width:11.568rem;
+height: 7.248rem;
+display: inline-block;
+position: relative;
+}
+.t_img>img{
+width:11.568rem;
+height: 7.248rem;
+margin-top: -1.440rem;
+z-index: 2;
+
+}
+.music{
+    display: inline-block;
+    width:1.44rem;
+    height:1.44rem;
+    border-radius: 50%;
+background: rgb(92,100,97);
+border:2px solid #fff;
+position: fixed;
+top:0.960rem;
+z-index: 100000;
+right:1rem;
+}
+.music>img{
+       width:1.44rem;
+    height:1.44rem;
+}
+.lot_img{
+    width:100%;
+    height: 14.4rem;
+    position: relative;
+}
+.lot_img li{
+    float: left;
+}
+.lot_img li>img{
+    z-index: -1;
+}
+.rotate{
+    -webkit-animation: big 1s infinite linear;
+}
+@-webkit-keyframes big{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/*第一屏END*/
+
+/*第二屏*/
+.two{
+    width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -2;
+    overflow: hidden;
+}
+.two_p{
+        width:100%;
+    height:15.360rem;
+    position: relative;
+}
+.two_z{
+    width:100%;
+    height:15.360rem;
+}
+.two_z .two_de{
+    width:100%;
+     height:15.360rem;
+    margin: 0 auto;
+    background: url(../images/13.png) no-repeat;
+    background-size: 100% 15.360rem;
+    position: relative;
+}
+.title_d{
+    display: inline-block;
+    width:3.360rem;
+    height: 1.920rem;
+    font-size:1.152rem;
+    position: absolute;
+    left:4.080rem;
+    top:0px;
+    color: darkred;
+    font-weight: 600;
+ line-height: 1.536rem;
+}
+.personal{
+    width:80%;
+    height:60%;
+    position: absolute;
+    top:5.760rem;
+    left:2.880rem;
+    text-align: left;
+    font-size: 0.672rem;
+}
+/*第二屏 END*/
+
+
+/*第三屏*/
+
+.three{
+    width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -3;
+    overflow: hidden;
+}
+.three_p{
+        width:100%;
+    height:15.360rem;
+    position: relative;
+}
+.three_tu{
+    z-index:10;
+    position:absolute;
+    top:14rem;
+    left:3rem;
+}
+/*第三屏 END*/
+
+
+
+/*第四屏*/
+
+.four{
+     width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -10;
+    overflow: hidden;
+}
+.four_p{
+           width:100%;
+    height:15.360rem;
+    position: relative;
+}
+/*第四屏 END*/
+
+/*第五屏*/
+
+.five{
+    width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -2;
+    overflow: hidden;
+}
+.five_p{
+    width:100%;
+    height:15.360rem;
+    position: relative;
+}
+.my_word{
+    display: inline-block;
+  width:12.4rem;
+  height:15.360rem;
+  position: absolute;
+  top:16rem;
+  left: 3rem;
+  font-size: 0.672rem;
+}
+/*第五屏 END*/
+/*第六屏*/
+.six{
+        width:100%;
+    height: 100%;
+    background: rgb(184,201,195);
+    z-index: -10;
+    overflow: hidden;
+}
+.six_er{
+    margin-top: 8.2rem;
+position: relative;
+}
+
+.erweima{
+ width:8.992rem;
+    height: 9.328rem;
+border:1px solid rgba(255,255,255,0.5);
+
+    /*position: absolute;
+    top:6rem;
+    left:4.5rem;*/
+    margin: 0 auto;
+margin-top: 0.5rem;
+}
+.er4{
+     width:9.992rem;
+    height: 10.328rem;
+border:1px solid rgba(255,255,255,0.5);
+margin: 0 auto;
+  margin-top:0.5rem;
+}
+.er3{
+     width:10.992rem;
+    height: 11.328rem;
+border:1px solid rgba(255,255,255,0.5);
+margin: 0 auto;
+  margin-top:0.5rem;
+}
+.er2{
+     width:11.992rem;
+    height: 12.328rem;
+border:1px solid rgba(255,255,255,0.5);
+  margin: 0 auto;
+    margin-top:0.5rem;
+}
+.er1{
+     width:12.992rem;
+    height: 13.328rem;
+border:1px solid rgba(255,255,255,0.5);
+  margin: 0 auto;
+  margin-top:0.5rem; 
+}
+.er{
+     width:13.992rem;
+    height: 14.328rem;
+border:1px solid rgba(255,255,255,0.5);
+   margin: 0 auto;
+
+}
+
+.my_erweima{
+    width:8.992rem;
+    height: 9.328rem;
+    position: absolute;
+    top:3.9rem;
+    left:4.5rem;
+}
+
+
+/*第六屏END*/
